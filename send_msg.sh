@@ -1,6 +1,6 @@
 #!/bin/bash
 # Usage: ./send_msg.sh "+1234567890" "Your message here"
-# Run indefinately: while true; do ./send_msg.sh; done
+# Run indefinately: while true; do ./send_msg.sh "+1234567890" "Your message here"; done
 
 TARGET=$1
 MESSAGE=$2
